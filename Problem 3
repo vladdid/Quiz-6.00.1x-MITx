@@ -1,0 +1,28 @@
+Problem 3-1: 
+
+Examine the following code snippet:
+
+  stuff  = _____
+  for thing in stuff:
+        if thing == 'iPad':
+           print "Found it"
+Select all the values of the variable "stuff" that will make the code print "Found it".
+
+--> ["iBoy", "iGirl", "iQ", "iC","iPaid","iPad"]
+
+--> ("iBoy", "iGirl", "iQ", "iC","iPaid","iPad")
+
+Problem 3-2:
+
+The following Python code is supposed to compute the square of an integer by using succesive additions.
+
+def Square(x):
+    return SquareHelper(abs(x), abs(x))
+
+def SquareHelper(n, x):
+    if n == 0:
+        return 0
+    return SquareHelper(n-1, x) + x
+What is the wrong with this implentation of procedure Square? Check all that apply.
+
+--> Nothing is wrong; the code is fine as-is.
